@@ -1,3 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 1vw;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    height: 100vh;
+    background: radial-gradient(circle, #008ee7, #00a6f1, #00bcf4, #00d0f1, #12e3eb);
+}
+ h1{
+     text-align: center;
+ }
+
 .container{
-    width:360px;
+    position: relative;
+    top: 10em;
+    left:30em;
+    width:40em;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius:1.4rem;
+}
+
+
+#container__texto{
+    margin:1rem 1.2rem 1rem 1.2rem; 
+    width:32.5rem;
+    height:3.6rem;
+    border: solid 2px grey;
+    border-radius: .5rem;
+
+}
+
+#container__boton{
+    list-style: none;
+    border:none;
+    border-radius: 0.4rem;
+    margin:1rem 1.2rem 1rem 0;
+    width:7rem;
+    height: 3.6rem;
+    color:#fff;
+    background: rgb(0, 195, 255);
+    cursor:pointer;
+}
+
+.container__todo{
+    margin:0;
+    padding: 0;
+    background: #fff;
+    position:relative;
+    border-radius: 0.4rem;
+    left:30rem;
+    top:10.5rem; 
+    font-size:2rem;
+    width:40rem;
+    padding-left: 2rem;
+
+
+}
+
+.Stylo{
+    cursor:pointer;
 }
